@@ -1,9 +1,9 @@
-import Header from './header.jsx';
+import Header from './Header.jsx';
 
 function Portfolio(){
     return (
         <>
-          <Header />
+          <Header name="Arshdeep Kaur" />
         </>
     );
 }

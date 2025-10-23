@@ -10,12 +10,12 @@ import { faSun } from "@fortawesome/free-solid-svg-icons";
 //  npm install @fortawesome/react-fontawesome
 
 
-function Header(){
+function Header({name}){
     return (
         <>
           <div className = "header">
-            <p className = "headerName">Arshdeep Kaur</p>
-            <div classname = "navlinks">
+            <p className = "headerName">{name}</p>
+            <div className = "navlinks">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Experience</a>

@@ -9,9 +9,9 @@
 }
 
 .header{
-    width: 98vw;
+    width: 100vw;
     height: max-content;
-    padding: 20px;
+    padding: 20px 0px;
     background-color: #1a202c;
     display: flex;
     justify-content: space-around;
@@ -34,6 +34,8 @@
 .navlinks{
     width: max-content;
     height: max-content;
+    position: relative;
+    right: 4%;
 }
 
 .theme{

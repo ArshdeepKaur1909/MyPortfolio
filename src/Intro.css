@@ -4,6 +4,7 @@
     height: 100vh;
     padding: 100px;
     display: flex;
+    gap: 100px;
 }
 
 .basic{
@@ -33,11 +34,6 @@
     line-height: 40px;
 }
 
-.image{
-    display: flex;
-    flex-direction: column;
-}
-
 .buttons{
     height: max-content;
     display: flex;
@@ -58,4 +54,13 @@
     border: 2px solid rgb(154, 154, 154);
     border-radius: 15px;
     text-align: center;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+}
+
+.image img{
+    border-radius: 15px;
 }

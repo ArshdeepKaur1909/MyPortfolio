@@ -1,6 +1,5 @@
-
 .headerName{
-   color: rgb(55, 55, 55);
+   color: #f7fafc;
    font-family: "Roboto", sans-serif;
    font-optical-sizing: auto;
    font-weight: 700;
@@ -13,12 +12,13 @@
     width: 98vw;
     height: max-content;
     padding: 20px;
-    background-color: #E6F1FFff;
+    background-color: #1a202c;
     display: flex;
     justify-content: space-around;
     align-items: center;
     box-shadow: 2px 2px 6px #656668;
     position: fixed;
+    top: 0;
 }
 
 .navlinks a{
@@ -27,7 +27,7 @@
     font-optical-sizing: auto;
     font-size: 20px;
     font-weight: 700;
-    color: rgb(55, 55, 55);
+    color: #f7fafc;
     margin: 8px;
 }
 

@@ -1,0 +1,61 @@
+.intro{
+    margin-top: 170px;
+    width: 100vw;
+    height: 100vh;
+    padding: 100px;
+    display: flex;
+}
+
+.basic{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.basic h1{
+    margin: 0;
+    color: #f7fafc;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+}
+
+.basic p{
+    color: #f7fafcb8;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    height: max-content;
+    display: flex;
+    gap: 40px;
+}
+
+.buttons a{
+    width: 200px;
+    height: max-content;
+    color: #f7fafc;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px solid rgb(154, 154, 154);
+    border-radius: 15px;
+    text-align: center;
+}

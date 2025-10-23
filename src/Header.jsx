@@ -12,7 +12,6 @@ import { faSun } from "@fortawesome/free-solid-svg-icons";
 
 function Header({name}){
     return (
-        <>
           <div className = "header">
             <p className = "headerName">{name}</p>
             <div className = "navlinks">
@@ -27,7 +26,6 @@ function Header({name}){
                <FontAwesomeIcon icon={faSun} />
             </div>
           </div>
-        </>
     )
 }
 

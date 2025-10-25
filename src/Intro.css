@@ -40,10 +40,10 @@
     gap: 40px;
 }
 
-.buttons a{
-    width: 200px;
+.buttons a {
+    width: 150px;
     height: max-content;
-    color: #f7fafc;
+    color: #9ca3af; /* text color matches border */
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -51,9 +51,17 @@
     font-size: 20px;
     text-decoration: none;
     padding: 10px;
-    border: 2px solid rgb(154, 154, 154);
+    border: 2px solid #9ca3af; /* matching border */
     border-radius: 15px;
     text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease; /* smooth hover effect */
+}
+
+.buttons a:hover {
+    background: linear-gradient(90deg, #9ca3af, #b9ccce);
+    color: #1a202c;
+    box-shadow: 0 0 15px #9ca3af;
 }
 
 .image{

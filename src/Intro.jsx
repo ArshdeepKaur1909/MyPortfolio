@@ -1,4 +1,6 @@
 import './Intro.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { falinkedin } from "@fortawesome/free-solid-svg-icons";
 
 function Intro({tagline, intro}){
    return(
@@ -7,7 +9,10 @@ function Intro({tagline, intro}){
         <h1>{tagline}</h1>
         <p>{intro}</p>
         <div className="buttons">
-            <a href="#" >Get In Touch</a>
+            <a class="get" href="#" >Get In Touch</a>
+            <a class="social" href="">
+               
+            </a>
         </div>
       </div>
       <div className = "image">

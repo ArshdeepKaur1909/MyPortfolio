@@ -40,7 +40,7 @@
     gap: 40px;
 }
 
-.buttons a {
+.get {
     width: 150px;
     height: max-content;
     color: #9ca3af; /* text color matches border */
@@ -58,7 +58,7 @@
     transition: all 0.3s ease; /* smooth hover effect */
 }
 
-.buttons a:hover {
+.get:hover {
     background: linear-gradient(90deg, #9ca3af, #b9ccce);
     color: #1a202c;
     box-shadow: 0 0 15px #9ca3af;

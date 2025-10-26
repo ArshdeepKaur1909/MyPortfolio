@@ -1,6 +1,6 @@
 import './Intro.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { falinkedin } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLinkedin } from "@fortawesome/free-solid-svg-icons";
 
 function Intro({tagline, intro}){
    return(
